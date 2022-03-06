@@ -1,0 +1,678 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(206, 206, 206);
+}
+  nav{
+    background: #dd3d40;
+    height: 81px;
+    width: 100%;
+  }
+
+  .logo {
+    width: 85px;
+    margin-left: 10px;
+}
+
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a:hover{
+    background: #ffffff;
+    transition: .5s;
+    color: #dd3d40;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+  }
+  #check{
+    display: none;
+  }
+
+  .titulos {
+    width: 100%;
+    height: 800px;
+    background-image: url("./nutri.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode:darken;
+    background-color: rgb(0,0,0,.3);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulos h1 {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-top: 230px; 
+}
+
+.titulos h2 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 400px;
+    font-weight: lighter;
+    padding-top: 80px;
+}
+
+footer{      
+    background-image: linear-gradient(45deg, #1b1b1b 40%, #ffffff 100%);
+    padding: 60px 0 50px 0;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contacto {
+     text-align: center;
+     border-bottom: 1px solid rgb(255, 255, 255);
+  }
+
+  .contacto h4 {
+      color: white;
+      border-bottom: 3px solid #dd3d40;
+      width: 100%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      font-weight: bolder;
+      font-size: 15px;
+  }
+
+  .contacto p {
+    color: #ccc; 
+      font-size: 14px;
+    }
+
+.social a {
+  font-size: 50px;
+  margin-right: 1rem;
+}
+.social a:hover {
+  color: red;
+}
+
+.bx {
+  color: red;
+}
+
+.redes {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+.parraredes {
+  color: white;
+width: 100%;
+margin: auto;
+padding-bottom: 5px;
+margin-bottom: 10px;
+font-weight: bolder;
+font-size: 15px;
+}
+
+.titulo {
+color: #6a994e;
+font-size: 30px;
+margin-bottom: 60px;
+text-align: center;
+padding-top: 10px;
+}
+
+  /* ---------Beneficios---- */
+  
+ .boton {
+  margin: 20px;
+  background: #dd3d40;
+  border: none;
+  padding: 11px 40px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+border: 1px solid black; }
+
+.contenedor {
+  padding-top: 60px;
+}
+.contenedor-sobre-nosotros {
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;   
+}
+
+.icono1 {
+
+  width: 700px;
+  box-shadow: 0 0 15px 0 rgb(0,0,0, .6);
+  ;
+  border-radius: 10px;
+}
+
+.icono2 {
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 rgb(0,0,0, .6);
+  margin-top: 35px;
+}
+
+.icono3 {
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 rgb(0,0,0, .6);
+  margin-top: 35px;
+  
+}
+.contenido-textos { 
+  margin-top: 30px;
+
+}
+
+.contenido-textos p {
+  padding: 15px;
+  width: 50%;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  background: #6a994e;
+  border-radius: 5px;
+  text-align:center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+
+}
+
+  /*----------Servicios---------- */
+
+  .portafolio {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;  
+}
+.parrauno {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 60%;
+    margin: auto;
+    background: #6a994e;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+   
+}
+
+.parrados {
+    margin-top: 30px;
+    background: #6a994e;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    width: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.portafolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+  .imagen-port {
+      width: 24%;
+      margin-bottom: 10px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      box-shadow: 0 0 12px 0 rgb(0,0,0, .5);
+      border-radius: 5px;
+  }
+
+  .imagen-port > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+  }
+
+  .imagen-port:hover {
+      transform:scale(1.1);
+    
+  }
+ 
+          /* ------Registro----- */
+
+          .conten {
+            padding: 60px 0;
+            width: 100%;
+            height: 100vh;
+            margin: auto;
+            overflow: hidden;
+            background-size: cover;
+        background-image: url("./htmls/alimentacion-saludable-para-personas-mayores-e1511452129235-1280x640.jpeg");
+    background-position: center;}
+
+          .regis {
+            width: 500px;
+            height: 480px;
+            background: #4e4d4d;
+            margin: auto;
+            margin-top: 150px;
+            box-shadow: 7px 13px 37px #000;
+            padding: 20px 30px;
+            color: white;
+            border-radius: 5px;
+            
+          }
+          
+          .regis h5 {
+            margin: 0;
+            text-align: center;
+            height: 40px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid;
+            font-size: 20px;
+          }
+          
+          .contro {
+            width: 100%;
+            border: 1px solid #dd5d5d;
+            margin-bottom: 15px;
+            padding: 11px 10px;
+            background: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+          }
+    
+          .regis a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+          }
+          
+          .regis  a:hover {
+            text-decoration: underline;
+          }
+
+          .boton{
+            background: #dd3d40;
+            color: white;
+            padding: 20px; 
+            width: 100%;
+            height: 40px;}
+
+            
+          /* ------Login---- */
+
+          .contene {
+            padding: 60px 0;
+            width: 100%;
+            height: 100vh;
+            margin: auto;
+            overflow: hidden;
+            background-size: cover;; 
+        background-image: url("./red.jpg");
+    background-position: center;}
+
+          .form-login {
+            width: 500px;
+            height: 370px;
+            background: #4e4d4d;
+            margin: auto;
+            margin-top: 190px;
+            box-shadow: 7px 13px 37px #000;
+            padding: 20px 30px;
+            color: white;
+            border-radius: 5px;
+          }
+          
+          .form-login h5 {
+            margin: 0;
+            text-align: center;
+            height: 40px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid;
+            font-size: 20px;
+          }
+          
+          .controls {
+            width: 100%;
+            border: 1px solid #dd5d5d;
+            margin-bottom: 15px;
+            padding: 11px 10px;
+            background: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+          }
+        
+          .form-login p{
+            height: 40px;
+            text-align: center;
+            border-bottom: 1px solid;
+          }
+          
+          .form-login a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+          }
+          
+          .form-login a:hover {
+            text-decoration: underline;
+          }
+
+          .boton{
+            background: #dd3d40;
+            color: white;
+            padding: 20px; 
+            width: 100%;
+            height: 40px;}
+
+
+          /* ----------Contacto--------------- */
+          .registro  {
+            padding: 60px 0;
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+            background-size: cover;
+            background-image: url("./violet.jpg"); 
+          height: 100vh;
+        }
+      
+              .register {
+                  padding: 125px 0px;
+              }
+    
+              form {
+                  margin: auto;
+                  width: 550px;
+                  background:  rgb(0,0,0, .4);
+                  padding: 10px 20px;
+                  box-sizing: border-box;
+                  border-radius: 10px;
+              }
+        
+              .comunicado {
+                  text-align: center;
+                 color: white;
+                 position: relative;
+                 bottom: 70px;
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                 font-size: 22px;
+                 width: 80%;
+                 margin: auto;
+              }
+        
+              form h2 {
+                  color: #528136;
+                  text-align: center;
+                  font-size: 30px;
+                  padding: 10px 0px;
+              }
+        
+              input, textarea {
+                       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  width: 100%;
+                  margin-bottom: 20px;
+                  padding: 7px;
+                  font-size: 17px;
+                  }
+        
+                  textarea {
+                      min-height: 100px;
+                      max-height: 200px;
+                      max-width: 100%;
+                  }
+        
+                  #boton {
+                      background: #dd3d40;
+                      color: white;
+                      padding: 20px;
+                  }
+        
+                  #boton:hover {
+                      cursor: pointer;
+                  }
+        
+                  .data {
+                      display: flex;
+                      justify-content: center;
+                      margin-top: 500px;
+                      
+                  }
+        
+          @media (max-width: 2000px) {
+            .contacto {
+                border: none;
+            }
+          
+          .redes {
+            border: none;
+          }
+        }
+    
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+     
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+      z-index: 2;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  section{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
+
+  @media (max-width: 750px) {
+
+.contenido-textos{
+  width: 50%;
+  margin: auto;
+}
+ 
+.icono1 {
+  width: 580px;
+
+}
+.icono2 {
+ width: 580px;
+}
+.icono3 {
+ width: 580px;
+}
+.contenido-textos p {
+ width: 100%;
+}
+
+  @media (max-width: 700px) {
+  
+      .titulos h1 { 
+        width: 80%; }
+
+        .imagen-port {
+          width: 95%;
+      }
+
+      form {
+        width: 75%;
+       
+    }
+
+    .regis {
+        width: 79%;
+    }
+
+  }
+
+  @media (max-width: 605px)  {
+  .titulos h1, h2 {
+  
+      width: 96%;
+    }
+
+    .icono1 {
+
+      width: 400px;
+      }
+      
+    .icono2 {
+      width: 400px;
+    }
+
+    .icono3 {
+      width: 400px;
+    }
+
+  }
+
+  @media (max-width: 560px)  {
+
+    .form-login {
+        width: 80%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        height: 320px;
+    }
+
+    .contacto {
+        margin-top: 7px;
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+
+    .contacto p {
+       position: relative;
+       bottom: 10px;
+    }
+
+    .contacto h4 {
+     border: none;
+     } 
+    }
+
+    @media (max-width: 520px) {
+      .titulos h1 {
+        font-size: 50px;
+      }
+      .titulos h2 {
+        font-size: 35px;
+      }
+    }
+
+      @media (max-width: 420px) {
+        .titulos h1, h2 {
+ width: 80%; }
+ .titulos h1 {
+  font-size: 40px;
+
+}
+.titulos h2 {
+  font-size: 30px;
+}
+
+.titulo {
+margin-left: 35px;
+}
+     
+.icono1 {
+  width: 300px;
+
+}
+.icono2 {
+ width: 300px;
+}
+.icono3 {
+ width: 300px;
+}
+.contenido-textos p {
+ width: 100%;
+}
+        } 
+      }
+
+
